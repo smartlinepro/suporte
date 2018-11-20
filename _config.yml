@@ -9,6 +9,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-admin
   - jekyll-feed
+  - jekyll-redirect-from
 
 exclude:
    - Gemfile
@@ -20,3 +21,6 @@ jekyll_admin:
     - posts
 
 include: ['_pages', '_help']
+
+whitelist:
+  - jekyll-redirect-from
