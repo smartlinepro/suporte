@@ -1,0 +1,22 @@
+title: SmartLine
+email: contato@smartlinepro.com.br
+description: SmartLine website suporte
+baseurl: ""
+url: "https://gcloud.smartlinepro.com.br"
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-admin
+# - jekyll-feed
+
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+
+jekyll_admin:
+  hidden_links:
+    - posts
+
+include: ['_pages', '_help']
