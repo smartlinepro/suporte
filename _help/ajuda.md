@@ -14,7 +14,7 @@ permalink: "ajuda/"
             <h3 class="h4 g-color-white mb-2">Primeiros Passos</h3>
             <span class="d-block h5 g-color-white-opacity-0_7 mb-4">Aprenda como fazer as configurações básicas do SmartLine</span>
             <a class="btn btn-md u-btn-white g-color-white g-bg-white-opacity-0_2 g-brd-white--hover g-color-purple--hover g-bg-white--hover g-rounded-25"
-                href="ajuda/primeiros-passos/">Acessar</a>
+                href="primeiros-passos/">Acessar</a>
         </div>
         <!-- End Icon Blocks -->
     </div>
@@ -27,7 +27,7 @@ permalink: "ajuda/"
             <h3 class="h4 g-color-white mb-2">Base de Conhecimento</h3>
             <span class="d-block h5 g-color-white-opacity-0_7 mb-4">Leia artigos para solucionar dúvidas frequentes</span>
             <a class="btn btn-md u-btn-white g-color-white g-bg-white-opacity-0_2 g-brd-white--hover g-color-teal--hover g-bg-white--hover g-rounded-25"
-                href="ajuda/base-de-conhecimentos/">Acessar</a>
+                href="base-de-conhecimentos/">Acessar</a>
         </div>
         <!-- End Icon Blocks -->
     </div>
@@ -40,7 +40,7 @@ permalink: "ajuda/"
             <h3 class="h4 g-color-white mb-2">Novidades</h3>
             <span class="d-block h5 g-color-white-opacity-0_7 mb-4">Confira as novidades e lançamentos do SmartLine</span>
             <a class="btn btn-md u-btn-white g-color-white g-bg-white-opacity-0_2 g-brd-white--hover g-color-blue--hover g-bg-white--hover g-rounded-25"
-                href="ajuda/novidades/">Acessar</a>
+                href="novidades/">Acessar</a>
         </div>
         <!-- End Icon Blocks -->
     </div>
