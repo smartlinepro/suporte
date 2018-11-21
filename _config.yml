@@ -22,5 +22,3 @@ jekyll_admin:
 
 include: ['_pages', '_help']
 
-whitelist:
-  - jekyll-redirect-from
