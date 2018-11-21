@@ -2,7 +2,7 @@ title: SmartLine
 email: contato@smartlinepro.com.br
 description: SmartLine website suporte
 baseurl: ""
-url: "https://gcloud.smartlinepro.com.br"
+url: "http://suporte.smartlinepro.com.br"
 
 markdown: kramdown
 plugins:
