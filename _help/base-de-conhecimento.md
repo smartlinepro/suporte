@@ -2,7 +2,6 @@
 layout: page-help
 title: Base de Conhecimentos
 description: Leia artigos para solucionar dúvidas frequentes
-category: Base de Conhecimentos
 permalink: "ajuda/base-de-conhecimentos/"
 ---
 

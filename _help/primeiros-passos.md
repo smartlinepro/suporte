@@ -2,7 +2,6 @@
 layout: page-help
 title: Primeiros Passos
 description: Aprenda como fazer as configurações básicas do SmartLine
-category: Primeiros Passos
 permalink: "ajuda/primeiros-passos/"
 ---
 
