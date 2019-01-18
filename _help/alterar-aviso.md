@@ -1,7 +1,7 @@
 ---
 layout: page-help
 title: Alterar aviso
-description: Como alterar aviso para exibir na TV
+description: Como alterar aviso exibido na TV
 category: Base de Conhecimentos
 permalink: "ajuda/base-de-conhecimentos/alterar-aviso"
 ---
