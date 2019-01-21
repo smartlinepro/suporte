@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,300i,400");
+.box-left {
+  float: left;
+}
+
+.box-right {
+  float: right;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+  color: #333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 8rem;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row [class^="col-"] {
+  float: left;
+}
+
+.row [class^="col-"]:not(:last-child) {
+  margin-right: 6rem;
+}
+
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}
+
+.row .col-1-of-3 {
+  width: calc((100% - 6rem * 2) / 3);
+}
+
+.row .col-2-of-3 {
+  width: calc( 2 * ((100% - 6rem * 2) / 3) + 6rem);
+}
+
+.row .col-1-of-4 {
+  width: calc((100% - 6rem * 3) / 4);
+}
+
+.row .col-2-of-4 {
+  width: calc( 2 * ((100% - 6rem * 3) / 4) + 6rem);
+}
+
+.row .col-3-of-4 {
+  width: calc( 3 * ((100% - 6rem * 3) / 4) + 6rem * 2);
+}
+
+.header {
+  width: 100vw;
+  padding: 2.5rem 0 2rem;
+  display: table;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.header__navbar {
+  max-width: 114rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.brand svg {
+  fill: #3179ce;
+}
+
+.brand--small {
+  width: 40px;
+  height: 40px;
+}
+
+.brand--medium {
+  width: 100px;
+  height: 100px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  float: left;
+}
+
+.menu ul li a {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2;
+  margin-left: 1.5rem;
+}
+
+.menu ul li a:link, .menu ul li a:visited {
+  color: #3179ce;
+  text-decoration: none;
+  border-bottom: .2rem solid transparent;
+}
+
+.menu ul li a:hover, .menu ul li a:active {
+  color: #3179ce;
+  text-decoration: none;
+  border-bottom: 0.2rem solid #3179ce;
+}
+
+.hero {
+  height: 50vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#3179ce), to(#009FE3));
+  background-image: linear-gradient(to right bottom, #3179ce, #009FE3);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hero__heading span {
+  text-align: center;
+  display: block;
+}
+
+.hero__heading span:last-child {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.hero__heading--primary {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.hero__heading--secundary {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.hero__search {
+  margin-top: 3rem;
+}
+
+.hero__search input {
+  width: 100%;
+  padding: 2rem;
+  border: 0;
+  border-radius: 5rem;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=main.css.map */

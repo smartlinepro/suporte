@@ -1,0 +1,54 @@
+.header {
+    width: 100vw;
+    padding: 2.5rem 0 2rem;
+    display: table;
+    box-shadow: 0 3px 7px rgba($color: $color-black, $alpha: 0.1);
+
+    &__navbar {
+        max-width: $grid-width;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.brand {
+    svg {
+        fill: $color-primary;
+    }
+    &--small {
+        width: 40px;
+        height: 40px;
+    }
+    &--medium {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.menu {
+    ul {
+        list-style: none;
+        li {
+            float: left;
+            a {
+                text-transform: uppercase;
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 2.2;
+                margin-left: 1.5rem;
+                &:link,
+                &:visited {
+                    color: $color-primary;
+                    text-decoration: none;
+                    border-bottom: .2rem solid transparent;
+                }
+                &:hover,
+                &:active {
+                    color: $color-primary;
+                    text-decoration: none;
+                    border-bottom: .2rem solid $color-primary;
+                }
+            }
+        }
+    }
+}
