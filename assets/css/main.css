@@ -30,6 +30,14 @@ body {
           box-sizing: border-box;
 }
 
+.subheadline {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: #3179ce;
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -133,6 +141,32 @@ body {
   border-bottom: 0.2rem solid #3179ce;
 }
 
+.card {
+  padding: 2rem;
+  border-radius: .7rem;
+  -webkit-box-shadow: 0 0.2rem 0.8rem rgba(204, 204, 204, 0.5);
+          box-shadow: 0 0.2rem 0.8rem rgba(204, 204, 204, 0.5);
+  text-align: center;
+}
+
+.card--white {
+  background-color: #fff;
+}
+
+.card--blue {
+  background-color: #3179ce;
+  color: #fff;
+}
+
+.card__heading {
+  font-size: 2rem;
+}
+
+.card p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
 .hero {
   height: 50vh;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#3179ce), to(#009FE3));
@@ -180,5 +214,13 @@ body {
   border: 0;
   border-radius: 5rem;
   font-size: 2rem;
+}
+
+[class^="section-"] {
+  padding: 10rem 0;
+}
+
+.section-topics {
+  background-color: #f9f9f9;
 }
 /*# sourceMappingURL=main.css.map */

@@ -7,8 +7,49 @@ layout: default
         <h1 class="hero__heading hero__heading--primary">
             <span>Como podemos ajudar?</span><span>Tudo o que você precisa saber para usar o Smartline</span></h1>
         <div class="hero__search">
-            <input type="text" class="search-field" placeholder="ex: quero adicionar franquias">
-            <ul class="search-results search-list"></ul>
+            <input type="text" id="search-input" placeholder="ex: quero adicionar franquias">
+            <ul id="results-container"></ul>
         </div>
     </div>
 </section>
+
+<section class="section-topics">
+    <h2 class="subheadline">Tópicos populares</h2>
+    <div class="row">
+        <div class="col-1-of-3">
+            <div class="card card--blue">
+                <h3 class="card__heading">Primeiros Passos</h3>
+                <span class="icon">icon</span>
+                <p>Aprenda como fazer as configurações básicas do SmartLine</p>
+            </div>
+        </div>
+        <div class="col-1-of-3">
+            <div class="card card--white">
+                <h3 class="card__heading">Base de Conhecimento</h3>
+                <span class="icon">icon</span>
+                <p>Leia artigos para solucionar dúvidas frequentes</p>
+            </div>
+        </div>
+        <div class="col-1-of-3">
+            <div class="card card--white">
+                <h3 class="card__heading">Novidades</h3>
+                <span class="icon">icon</span>
+                <p>Confira as novidades e lançamentos do SmartLine</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<ul>
+    <li class="nav-item g-my-5"><a href="/ajuda" class="nav-link">Início</a></li>
+    {% assign mydocs = site.pages | group_by: 'category' %}
+    {% for cat in mydocs %}
+    {% unless cat.name == "" %}
+    <li class="nav-item g-my-5 g-font-weight-600">{{ cat.name | capitalize }}</li>
+    {% assign items = cat.items | sort: 'order' %}
+    {% for item in items %}
+    <li class="nav-item g-my-5 g-ml-10"><a href="{{ item.url }}" class="nav-link">- {{ item.title }}</a></li>
+    {% endfor %}
+    {% endunless %}
+    {% endfor %}
+</ul>

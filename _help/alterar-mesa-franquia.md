@@ -3,7 +3,7 @@ layout: page-help
 title: Alterar mesa na franquia
 description: Como alterar mesa na franquia
 category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/adicionar-mesa-franquia"
+permalink: "ajuda/base-de-conhecimentos/alterar-mesa-franquia"
 ---
 
 <!-- # Adicionar Mesa na franquia -->
