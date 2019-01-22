@@ -40,16 +40,19 @@ layout: default
     </div>
 </section>
 
-<ul>
-    <li class="nav-item g-my-5"><a href="/ajuda" class="nav-link">Início</a></li>
-    {% assign mydocs = site.pages | group_by: 'category' %}
-    {% for cat in mydocs %}
-    {% unless cat.name == "" %}
-    <li class="nav-item g-my-5 g-font-weight-600">{{ cat.name | capitalize }}</li>
-    {% assign items = cat.items | sort: 'order' %}
-    {% for item in items %}
-    <li class="nav-item g-my-5 g-ml-10"><a href="{{ item.url }}" class="nav-link">- {{ item.title }}</a></li>
-    {% endfor %}
-    {% endunless %}
-    {% endfor %}
-</ul>
+<section>
+    <div class="row">
+        <ul>
+            {% assign mydocs = site.pages | group_by: 'category' %}
+            {% for cat in mydocs %}
+            {% unless cat.name == "" %}
+            <li class="nav-item g-my-5 g-font-weight-600">{{ cat.name | capitalize }}</li>
+            {% assign items = cat.items | sort: 'order' %}
+            {% for item in items %}
+            <li class="nav-item g-my-5 g-ml-10"><a href="{{ item.url }}" class="nav-link">- {{ item.title }}</a></li>
+            {% endfor %}
+            {% endunless %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>

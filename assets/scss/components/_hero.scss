@@ -22,11 +22,12 @@
                 font-weight: 200;
             }
         }
+
         &--primary {
             font-size: 4rem;
             color: $color-white;
         }
-        
+
         &--secundary {
             font-size: 2rem;
             color: $color-white;
@@ -34,7 +35,8 @@
     }
 
     &__search {
-        margin-top: 3rem;
+        margin-top: 5rem;
+        position: relative;
 
         input {
             width: 100%;
@@ -44,7 +46,49 @@
             font-size: 2rem;
 
         }
-    }
 
-    
+        ul {
+            position: absolute;
+            list-style: none;
+            margin-top: 5px;
+            width: 100%;
+
+
+            li {
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 2.2;
+                padding: .3rem 2rem .3rem;
+                background-color: $color-white;
+                border-left: .1rem solid #efefef;
+                border-right: .1rem solid #efefef;
+
+                &:first-child {
+                    padding-top: 2rem;
+                    border-top-left-radius: 1rem;
+                    border-top-right-radius: 1rem;
+                }
+
+                &:last-child {
+                    padding-bottom: 2rem;
+                    border-bottom-left-radius: 1rem;
+                    border-bottom-right-radius: 1rem;
+                }
+
+                a {
+                    &:link,
+                    &:visited {
+                        color: $color-black;
+                        text-decoration: none;
+                    }
+
+                    &:hover,
+                    &:active {
+                        color: $color-primary;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
 }
