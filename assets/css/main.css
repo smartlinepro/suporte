@@ -7,6 +7,10 @@
   float: right;
 }
 
+.align-center {
+  text-align: center;
+}
+
 *,
 *::after,
 *::before {
@@ -30,11 +34,30 @@ body {
           box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #3179ce;
+}
+
+a:hover, a:active {
+  color: #3179ce;
+}
+
 .subheadline {
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 3rem;
+  color: #3179ce;
+}
+
+.section-articles h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
   color: #3179ce;
 }
 
@@ -147,6 +170,16 @@ body {
   -webkit-box-shadow: 0 0.2rem 0.8rem rgba(204, 204, 204, 0.5);
           box-shadow: 0 0.2rem 0.8rem rgba(204, 204, 204, 0.5);
   text-align: center;
+  background-color: #fff;
+}
+
+.card:hover {
+  background-color: #3179ce;
+  color: #fff;
+}
+
+.card:hover i {
+  color: #fff;
 }
 
 .card--white {
@@ -155,11 +188,15 @@ body {
 
 .card--blue {
   background-color: #3179ce;
-  color: #fff;
 }
 
 .card__heading {
   font-size: 2rem;
+}
+
+.card i {
+  font-size: 10rem;
+  color: #3179ce;
 }
 
 .card p {
@@ -262,6 +299,45 @@ body {
 
 .section-topics {
   background-color: #f9f9f9;
+}
+
+.section-topics a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.section-articles .content {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.section-articles .content ul {
+  list-style: none;
+  font-size: 1.6rem;
+  margin-bottom: 5rem;
+}
+
+.section-articles .content ul li {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.section-articles .content ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-articles .content ul li a:link, .section-articles .content ul li a:visited {
+  color: #3179ce;
+}
+
+.section-articles .content ul li a:hover, .section-articles .content ul li a:active {
+  color: #3179ce;
 }
 
 .page {

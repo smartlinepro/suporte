@@ -4,4 +4,42 @@
 
 .section-topics {
     background-color: $color-gray;
+    a {
+        color: $color-black-a70;
+    }
+}
+
+.section-articles {
+    .content {
+        max-width: 70%;
+        margin: 0 auto;
+
+        ul {
+            list-style: none;
+            font-size: 1.6rem;
+            margin-bottom: 5rem;
+
+            li {
+                display: block;
+                margin-bottom: 2px;
+
+                a {
+                    display: flex;
+                    padding: 1rem;
+                    background-color: $color-gray;
+                    justify-content: space-between;
+
+                    &:link,
+                    &:visited {
+                        color: $color-primary;
+                    }
+
+                    &:hover,
+                    &:active {
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+    }
 }

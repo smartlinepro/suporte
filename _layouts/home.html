@@ -14,45 +14,82 @@ layout: default
 </section>
 
 <section class="section-topics">
-    <h2 class="subheadline">Tópicos populares</h2>
+    <h2 class="subheadline">Procure por tópicos</h2>
     <div class="row">
         <div class="col-1-of-3">
-            <div class="card card--blue">
-                <h3 class="card__heading">Primeiros Passos</h3>
-                <span class="icon">icon</span>
-                <p>Aprenda como fazer as configurações básicas do SmartLine</p>
-            </div>
+            <a href="!#">
+                <div class="card">
+                    <h3 class="card__heading">Primeiros Passos</h3>
+                    <i class="icon ion-ios-rocket"></i>
+                    <p>Aprenda como fazer as configurações básicas do SmartLine</p>
+                </div>
+            </a>
         </div>
         <div class="col-1-of-3">
-            <div class="card card--white">
-                <h3 class="card__heading">Base de Conhecimento</h3>
-                <span class="icon">icon</span>
-                <p>Leia artigos para solucionar dúvidas frequentes</p>
-            </div>
+            <a href="">
+                <div class="card">
+                    <h3 class="card__heading">Base de Conhecimento</h3>
+                    <i class="icon ion-ios-school"></i>
+                    <p>Leia artigos para solucionar dúvidas frequentes</p>
+                </div>
+            </a>
         </div>
         <div class="col-1-of-3">
-            <div class="card card--white">
-                <h3 class="card__heading">Novidades</h3>
-                <span class="icon">icon</span>
-                <p>Confira as novidades e lançamentos do SmartLine</p>
-            </div>
+            <a href="">
+                <div class="card">
+                    <h3 class="card__heading">Novidades</h3>
+                    <i class="icon ion-ios-build"></i>
+                    <p>Confira as novidades e lançamentos do SmartLine</p>
+                </div>
+            </a>
         </div>
     </div>
 </section>
 
-<section>
+<section class="section-articles">
+    <h2 class="subheadline">Sobre o que você deseja saber mais?</h2>
     <div class="row">
-        <ul>
+        <div class="content">
             {% assign mydocs = site.pages | group_by: 'category' %}
-            {% for cat in mydocs %}
+            {% for cat in mydocs | sort %}
             {% unless cat.name == "" %}
-            <li class="nav-item g-my-5 g-font-weight-600">{{ cat.name | capitalize }}</li>
-            {% assign items = cat.items | sort: 'order' %}
-            {% for item in items %}
-            <li class="nav-item g-my-5 g-ml-10"><a href="{{ item.url }}" class="nav-link">- {{ item.title }}</a></li>
-            {% endfor %}
+            {% if cat.name == "Primeiros Passos" %}
+            <div class="primeiros-passos">
+                <h3>{{cat.name}}</h3>
+                <ul>
+                    {% assign items = cat.items %}
+                    {% for item in items %}
+                    <li>
+                        <a href="{{ item.url }}">
+                            <span>{{ item.title }}</span>
+                            <span class="icon ion-ios-arrow-forward"></span>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif%}
+
+            {% if cat.name == "Base de Conhecimentos" %}
+            <div class="base-conhecimento">
+                <h3>{{cat.name}}</h3>
+                <ul class="nav-main flex-direction--column">
+                    {% assign items = cat.items %}
+                    {% for item in items %}
+                    <li>
+                        <a href="{{ item.url }}">
+                            <span>{{ item.title }}</span>
+                            <span class="icon ion-ios-arrow-forward"></span>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif%}
+
             {% endunless %}
             {% endfor %}
-        </ul>
+
+        </div>
     </div>
 </section>
