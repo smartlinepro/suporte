@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,300i,400');
 
 .subheadline {
-    text-align: center;
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 3rem;
-    color: $color-primary;
+
+    &--color-primary {
+        color: $color-primary;
+    }
+    &--color-white {
+        color: $color-primary;
+    }
 }
 
 .section-articles {
@@ -16,3 +21,8 @@
         color: $color-primary;
     }
 }
+
+h2 { font-size: 3rem; }
+h3 { font-size: 2.6rem; }
+h4 { font-size: 2.2rem; }
+h5 { font-size: 2rem; }

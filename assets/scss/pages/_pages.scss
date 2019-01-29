@@ -1,10 +1,33 @@
-.page {
-    margin-top: 7rem;
-    font-size: 1.6rem;
-    h1 {
-        font-size: 4rem;
+    .article {
+        font-size: 1.6rem;
+        &__header {
+            width: 100%;
+            //background-color: $color-primary;
+            background-image: linear-gradient(to right bottom, $color-primary, $color-secondary);
+            background-size: cover;
+            background-position: center;
+            padding: 10rem 0;
+            text-align: center;
+            color: $color-white;
+        }
+
+        &__headind {
+            font-size: 4rem;
+        }
+
+        &__lead {
+            font-size: 2rem;
+            font-weight: 300;
+        }
+
+        &__content {
+            padding: 8rem 0 0;
+        }
+
+        &__related {
+            border-top: 1px solid $color-gray-light;
+            padding: 4rem 0 0;
+        }
+
     }
-    .content {
-        padding: 2rem;
-    }
-}
+

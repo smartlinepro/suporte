@@ -1,12 +1,23 @@
 ---
 layout: default
 ---
-<section class="section page">
-    <div class="row">
-        <h1>{{page.title}}</h1>
-        <p>{{page.description}}</p>
-        <div class="content">
-            {{content}}
-        </div>
+<article class="article">
+    <div class="article__header">
+        <h1 class="article__headind">{{page.title}}</h1>
+        <p class="article__lead">{{page.description}}</p>
     </div>
-</section>
+    <div class="article__content row">
+        {{content}}
+    </div>
+    <div class="article__related row">
+        <h2 class="subheadline">Artigos relacionados</h2>
+        <ul class="nav-articles">
+            <li>
+                <a href="{{ item.url }}">
+                    <span>{{ item.title }}</span>
+                    <span class="icon ion-ios-arrow-forward"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</article>
