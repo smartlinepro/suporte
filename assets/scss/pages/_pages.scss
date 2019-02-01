@@ -1,5 +1,4 @@
     .article {
-        font-size: 1.6rem;
         &__header {
             width: 100%;
             //background-color: $color-primary;
@@ -21,13 +20,105 @@
         }
 
         &__content {
-            padding: 8rem 0 0;
+
+            @extend %container;
+
+            padding: 8rem 1.5rem 0;
+
+            p,
+            ol,
+            ul {
+                margin-bottom: 3rem;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                margin-bottom: 2.5rem;
+                font-weight: 900;
+            }
+
+            h2 {
+                font-size: 3.6rem;
+            }
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            h4 {
+                font-size: 2.5rem;
+            }
+
+            h5 {
+                font-size: 2.3rem;
+            }
+
+            ol,
+            ul {
+                list-style-position: inside;
+
+                ol,
+                ul {
+                    margin-left: 2rem;
+                    list-style-position: inside;
+                }
+
+                li {
+                    margin-bottom: 1.25rem;
+                }
+            }
+
+            strong {
+                font-weight: 700;
+            }
+
+            blockquote {
+                border-left: solid 4px $color-primary;
+                padding-left: 2rem;
+                font-weight: 400;
+                font-style: italic;
+                line-height: 1.7;
+                margin: 6rem 0;
+            }
+
+            a {
+                text-decoration: none;
+                transition: all .2s;
+
+                &:link,
+                &:visited {
+                    color: $color-primary;
+                    padding-bottom: 2px;
+                    border-bottom: 1px solid $color-primary;
+                }
+
+                &:hover,
+                &:active {
+                    color: $color-white;
+                    background-color: $color-primary
+                }
+            }
+
+            img {
+                max-width: 100%;
+                margin: 3rem 0;
+            }
+
+            iframe {
+                max-width: 100%;
+                margin: 5rem 0;
+            }
+
         }
 
         &__related {
-            border-top: 1px solid $color-gray-light;
+            @extend %container;
             padding: 4rem 0 0;
+            border-top: 1px solid $color-gray-light;
         }
 
     }
-

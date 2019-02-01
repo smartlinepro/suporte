@@ -17,7 +17,7 @@ layout: default
     <h2 class="subheadline subheadline--color-primary align-center">Procure por tópicos</h2>
     <div class="row">
         <div class="col-1-of-3">
-            <a href="#">
+            <a href="#primeiros-passos" class="js-button-primeiros-passos">
                 <div class="card">
                     <h3 class="card__heading">Primeiros Passos</h3>
                     <i class="icon ion-ios-rocket"></i>
@@ -26,7 +26,7 @@ layout: default
             </a>
         </div>
         <div class="col-1-of-3">
-            <a href="">
+            <a href="#base-conhecimentos" class="js-button-base-conhecimentos">
                 <div class="card">
                     <h3 class="card__heading">Base de Conhecimento</h3>
                     <i class="icon ion-ios-school"></i>
@@ -35,7 +35,7 @@ layout: default
             </a>
         </div>
         <div class="col-1-of-3">
-            <a href="">
+            <a href="/novidades">
                 <div class="card">
                     <h3 class="card__heading">Novidades</h3>
                     <i class="icon ion-ios-build"></i>
@@ -69,9 +69,15 @@ layout: default
                 </ul>
             </div>
             {% endif%}
+            {% endunless %}
+            {% endfor %}
+
+            {% assign mydocs = site.pages | group_by: 'category' %}
+            {% for cat in mydocs %}
+            {% unless cat.name == "" %}
 
             {% if cat.name == "Primeiros Passos" %}
-            <div class="js-primeiros-passos">
+            <div id="primeiros-passos" class="js-primeiros-passos">
                 <h3>{{cat.name}}</h3>
                 <ul class="nav-articles">
                     {% assign items = cat.items %}
@@ -88,7 +94,7 @@ layout: default
             {% endif%}
 
             {% if cat.name == "Base de Conhecimentos" %}
-            <div class="js-base-conhecimento">
+            <div id="base-conhecimentos" class="js-base-conhecimentos">
                 <h3>{{cat.name}}</h3>
                 <ul class="nav-articles">
                     {% assign items = cat.items %}

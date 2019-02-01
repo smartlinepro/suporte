@@ -12,8 +12,9 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 2rem;
     font-weight: 300;
-    line-height: 1.7;
+    line-height: 2;
     text-rendering: optimizeLegibility;
     color: #333;
     box-sizing: border-box;
@@ -21,6 +22,7 @@ body {
 
 a {
     text-decoration: none;
+    transition: all .2s;
 
     &:link,
     &:visited {
@@ -33,23 +35,7 @@ a {
     }
 }
 
-ol,
-ul { 
-    list-style-position: inside;
-    ol,
-    ul {
-        margin-left: 2rem;
-        list-style-position: inside;
-    }
-}
 
-code {
-    padding: 0.5rem;
-    background-color: $color-gray-light;
-    border-radius: 0.5rem;
-}
 
-h2,
-h3,
-h4,
-h5 { margin-bottom: 3rem; }
+
+

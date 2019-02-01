@@ -1,6 +1,10 @@
-.row {
+%container {
     max-width: $grid-width; //1140px
     margin: 0 auto;
+}
+
+.row {
+    @extend %container;
 
     &:not(:last-child) {
         margin-bottom: $grid-gap-vertical;
