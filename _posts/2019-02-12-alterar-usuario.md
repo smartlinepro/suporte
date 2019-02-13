@@ -1,9 +1,12 @@
 ---
-layout: page-help
+layout: post
 title: Alterar usuário
+date: 2019-02-12 21:35:22
 description: Como alterar os dados do usuário
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/alterar-usuario"
+categories: 
+- Base de Conhecimentos
+tags:
+- usuário
 ---
 
 <!-- # Alterar usuário -->

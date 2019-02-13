@@ -1,10 +1,15 @@
 ---
-layout: page-help
+layout: post
 title: Adicionar TV (Painel) na franquia
+date: 2019-02-12 21:35:22
 description: Como adicionar painel de TV na franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/adicionar-tv-franquia"
+categories: 
+- Base de Conhecimentos
+tags:
+- franquia 
+- tv 
 ---
+
 
 <!-- # Adicionar TV (Painel) na franquia -->
 

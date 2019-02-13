@@ -1,9 +1,13 @@
 ---
-layout: page-help
-title: Adicionar aviso
-description: Como adicionar aviso para exibir na TV
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/adicionar-aviso"
+layout: post
+title: "Adicionar aviso"
+date: 2019-02-12 21:35:22
+description: "Como adicionar aviso para exibir na TV"
+categories: 
+- Base de Conhecimentos
+tags:
+- aviso 
+- tv 
 ---
 
 <!-- # Adicionar aviso -->

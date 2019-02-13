@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Alterar fila da franquia
+date: 2019-02-12 21:35:22
 description: Como alterar fila da franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/alterar-fila-franquia"
+categories: 
+- Base de Conhecimentos
+tags:
+- franquia 
+- fila
 ---
 
 <!-- # Alterar filas na franquia -->

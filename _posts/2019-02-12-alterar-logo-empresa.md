@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Alterar logo da empresa
+date: 2019-02-12 21:35:22
 description: Como alterar a logo da empresa
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/alterar-logo-empresa"
+categories: 
+- Base de Conhecimentos
+tags:
+- logo 
+- empresa
 ---
 
 <!-- # Alterar logo da empresa -->

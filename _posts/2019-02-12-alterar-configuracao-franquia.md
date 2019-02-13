@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Alterar configuração da franquia
+date: 2019-02-12 21:35:22
 description: Alterar configuração da franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/alterar-configuracao-franquia"
+categories: 
+- Base de Conhecimentos
+tags:
+- franquia 
+- configuração
 ---
 
 <!-- # Alterar configuração da franquia -->

@@ -1,9 +1,12 @@
 ---
-layout: page-help
+layout: post
 title: Adicionar playlists
+date: 2019-02-12 21:35:22
 description: Como adicionar playlists
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/adicionar-playlists"
+categories: 
+- Base de Conhecimentos
+tags:
+- playlists 
 ---
 
 <!-- # Adicionar playlists -->

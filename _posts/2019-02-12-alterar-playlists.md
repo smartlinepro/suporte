@@ -1,9 +1,12 @@
 ---
-layout: page-help
+layout: post
 title: Alterar playlists
+date: 2019-02-12 21:35:22
 description: Como alterar uma playlists
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/alterar-playlists"
+categories: 
+- Base de Conhecimentos
+tags:
+- playlists 
 ---
 
 <!-- # Adicionar playlists -->

@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Adicionar fila na franquia
+date: 2019-02-12 21:35:22
 description: Como adicionar fila na franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/adicionar-fila-franquia"
+categories: 
+- Base de Conhecimentos
+tags:
+- franquia 
+- fila 
 ---
 
 <!-- # Adicionar filas na franquia -->

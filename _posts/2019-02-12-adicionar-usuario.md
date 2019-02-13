@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Adicionar usuário
+date: 2019-02-12 21:35:22
 description: Como adicionar novo usuário na franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/adicionar-usuario"
+categories: 
+- Base de Conhecimentos
+tags:
+- franquia 
+- usuário 
 ---
 
 <!-- # Adicionar usuário -->

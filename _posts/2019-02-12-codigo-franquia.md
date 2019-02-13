@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Código da franquia
+date: 2019-02-12 21:35:22
 description: Como encontrar o código da franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/codigo-franquia"
+categories: 
+- Base de Conhecimentos
+tags:
+- franquia 
+- código
 ---
 
 <!-- # Código da franquia -->

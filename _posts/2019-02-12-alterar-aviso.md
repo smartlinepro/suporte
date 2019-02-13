@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Alterar aviso
+date: 2019-02-12 21:35:22
 description: Como alterar aviso exibido na TV
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/alterar-aviso"
+categories: 
+- Base de Conhecimentos
+tags:
+- aviso 
+- tv
 ---
 
 <!-- # Alterar aviso -->

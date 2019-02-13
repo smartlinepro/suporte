@@ -5,6 +5,7 @@ baseurl: ""
 url: "https://suporte.smartlinepro.com.br"
 
 markdown: kramdown
+permalink: /:title/
 plugins:
   - jekyll-seo-tag
   - jekyll-admin
