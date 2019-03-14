@@ -1,9 +1,12 @@
 ---
-layout: page-help
+layout: post
 title: Instalação do Aplicativo SmartLine Filas Tablet
+date: 2019-02-12 21:35:22
 description: Aprenda como fazer a instalação do aplicativo no tablet
-category: Primeiros Passos
-permalink: "ajuda/primeiros-passos/instalacao-smartline-filas-tablet"
+categories: 
+- Primeiros Passos
+tags:
+- instalação
 ---
 
 Passo 1. Digite no navegador de internet do tablet o endereço `http://gcloud.smartlinepro.com.br/downloads/`

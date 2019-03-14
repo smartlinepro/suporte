@@ -1,9 +1,12 @@
 ---
-layout: page-help
+layout: post
 title: Remover playlists
+date: 2019-02-12 21:35:22
 description: Como remover playlists
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/remover-playlists"
+categories: 
+- Base de Conhecimentos
+tags:
+- playlists
 ---
 
 <!-- # Adicionar playlists -->

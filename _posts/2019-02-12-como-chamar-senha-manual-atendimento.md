@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Como chamar senha manual no atendimento
+date: 2019-02-12 21:35:22
 description: Como chamar senha manual no atendimento
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/como-chamar-senha-manual-atendimento"
+categories: 
+- Base de Conhecimentos
+tags:
+- senha 
+- atendimento
 ---
 
 1. Faça login no SmartLine.

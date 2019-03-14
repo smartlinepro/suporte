@@ -1,12 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Alterar senha
+date: 2019-02-12 21:35:22
 description: Como alterar a senha do usuário
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/alterar-senha"
+categories:
+- Base de Conhecimentos
+tags:
+- senha
 ---
-
-<!-- # Alterar senha -->
 
 1. Acessar a ferramenta SmartLine.
 2. Informar os dados de autenticação `E-mail e Senha`.

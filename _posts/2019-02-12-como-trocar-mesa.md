@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Como trocar de mesa
+date: 2019-02-12 21:35:22
 description: Como trocar de mesa para atender outra fila
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/como-trocar-mesa"
+categories: 
+- Base de Conhecimentos
+tags:
+- mesa 
+- fila
 ---
 
 1. Faça login no SmartLine.

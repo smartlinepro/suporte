@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Visualizar relatório de avaliação por franquia
+date: 2019-02-12 21:35:22
 description: Visualizar relatório de avaliação por franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/visualizar-relatorio-avaliacao-por-franquiao"
+categories: 
+- Base de Conhecimentos
+tags:
+- relatórios 
+- franquia
 ---
 
 <!-- # Visualizar relatório de atendimentos -->

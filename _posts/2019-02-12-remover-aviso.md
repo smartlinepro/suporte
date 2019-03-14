@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Remover aviso
 description: Como remover aviso exibido na TV
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/remover-aviso"
+date: 2019-02-12 21:35:22
+categories: 
+- Base de Conhecimentos
+tags:
+- aviso 
+- tv
 ---
 
 <!-- # Remover aviso -->

@@ -1,10 +1,14 @@
 ---
-layout: page-help
+layout: post
 title: Como iniciar atendimento
+date: 2019-02-12 21:35:22
 description: Como iniciar atendimento na franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/como-iniciar-atendimento"
+categories: 
+- Base de Conhecimentos
+tags:
+- atendimento
 ---
+
 
 1. Faça login no SmartLine.
 2. Selecione a opção de menu **Atendimento**.

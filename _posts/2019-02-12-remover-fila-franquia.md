@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Remover fila da franquia
+date: 2019-02-12 21:35:22
 description: Como remover fila da franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/remover-fila-franquia"
+categories: 
+- Base de Conhecimentos
+tags:
+- fila 
+- franquia
 ---
 
 1. Acessar a ferramenta SmartLine.

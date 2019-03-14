@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Visualizar TV no navegador
+date: 2019-02-12 21:35:22
 description: Como visualizar as informações da TV no navegador
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/visualizar-tv-navegador"
+categories: 
+- Base de Conhecimentos
+tags:
+- tv 
+- navegador
 ---
 
 1. Faça login no SmartLine.

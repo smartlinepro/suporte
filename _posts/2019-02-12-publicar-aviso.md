@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Publicar aviso
+date: 2019-02-12 21:35:22
 description: Como publicar aviso para exibir na TV
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/publicar-aviso"
+categories: 
+- Base de Conhecimentos
+tags:
+- senha 
+- atendimento
 ---
 
 <!-- # Remover aviso -->

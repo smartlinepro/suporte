@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Remover mesa na franquia
+date: 2019-02-12 21:35:22
 description: Como remover mesa na franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/remover-mesa-franquia"
+categories: 
+- Base de Conhecimentos
+tags:
+- mesa 
+- franquia
 ---
 
 <!-- # Remover Mesa na franquia -->

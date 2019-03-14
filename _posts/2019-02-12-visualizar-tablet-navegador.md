@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Visualizar Tablet no navegador
+date: 2019-02-12 21:35:22
 description: Como visualizar as informações do tablet no navegador
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/visualizar-tablet-navegador"
+categories: 
+- Base de Conhecimentos
+tags:
+- tablet
+- navegador
 ---
 
 1. Faça login no SmartLine.

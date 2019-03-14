@@ -1,9 +1,12 @@
 ---
-layout: page-help
+layout: post
 title: Fazer login no Smartline
+date: 2019-02-12 21:35:22
 description: Como fazer login na ferramenta Smartline
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/login-smartline"
+categories: 
+- Base de Conhecimentos
+tags:
+- login
 ---
 
 1. Digite no navegador **www.smartlinepro.com.br**.

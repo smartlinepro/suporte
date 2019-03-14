@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Instalação do Servidor de Impressão
+date: 2019-02-12 21:35:22
 description: Aprenda como fazer a configuração da impressora de impressão
-category: Primeiros Passos
-permalink: "ajuda/base-de-conhecimentos/instalacao-servidor-impressora"
+categories: 
+- Base de Conhecimentos
+tags:
+- senha 
+- atendimento
 ---
 
 A função do servidor de impressão é imprirmir as senhas que foram solicitadas diretamente no Tablet.

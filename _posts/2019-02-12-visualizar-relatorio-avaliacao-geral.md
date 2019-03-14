@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Visualizar relatório de avaliação geral
+date: 2019-02-12 21:35:22
 description: Visualizar relatório de avaliação geral
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/visualizar-relatorio-avaliacao-geral"
+categories: 
+- Base de Conhecimentos
+tags:
+- relatórios 
+- atendimento
 ---
 
 <!-- # Visualizar relatório de atendimentos -->

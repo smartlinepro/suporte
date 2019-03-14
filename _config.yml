@@ -17,9 +17,3 @@ exclude:
    - Gemfile.lock
    - node_modules
 
-jekyll_admin:
-  hidden_links:
-    - posts
-
-include: ['_pages', '_help']
-

@@ -1,9 +1,13 @@
 ---
-layout: page-help
+layout: post
 title: Visualizar configuração da franquia
+date: 2019-02-12 21:35:22
 description: Visualizar configuração da franquia
-category: Base de Conhecimentos
-permalink: "ajuda/base-de-conhecimentos/visualizar-configuracao-franquia"
+categories: 
+- Base de Conhecimentos
+tags:
+- configuração 
+- franquia
 ---
 
 <!-- # Visualizar configuração da franquia -->
