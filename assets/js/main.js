@@ -7,7 +7,8 @@
     const btnBaseConhecimento = document.querySelector('.js-button-base-conhecimentos');
     
     document.addEventListener("DOMContentLoaded", function (event) {
-        baseConhecimento.style.cssText = "display:none";
+        console.log(baseConhecimento);
+        baseConhecimento.style.cssText = "display:block";
         primeiroPassos.style.cssText = "display:none";
     });
 

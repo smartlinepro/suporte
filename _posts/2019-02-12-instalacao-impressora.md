@@ -4,7 +4,7 @@ title: Instalação da Impressora
 date: 2019-02-12 21:35:22
 description: Aprenda como fazer a configuração da impressora de impressão
 categories: 
-- Base de Conhecimentos
+- Primeiros Passos
 tags:
 - senha 
 - atendimento

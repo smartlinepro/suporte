@@ -1,8 +1,8 @@
 ---
-layout: page-help
+layout: page
 title: Novidades
 description: Confira as novidades e lançamentos do SmartLine
-permalink: "ajuda/novidades/"
+permalink: "/novidades"
 ---
 
 ## Versão: 2.0.1

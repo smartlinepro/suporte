@@ -35,7 +35,7 @@ layout: default
             </a>
         </div>
         <div class="col-1-of-3">
-            <a href="/novidades">
+            <a href="{{site.url}}/novidades">
                 <div class="card">
                     <h3 class="card__heading">Novidades</h3>
                     <i class="icon ion-ios-build"></i>
@@ -50,69 +50,59 @@ layout: default
     <h2 class="subheadline subheadline--color-primary align-center">Sobre o que você deseja saber mais?</h2>
     <div class="row">
         <div class="content">
-            {% assign mydocs = site.posts | group_by: 'category' %}
-            {% for cat in mydocs %}
-            {% unless cat.name == "" %}
-
-            {% if cat.name == "Primeiros Passos" %}
-            <div>
-                <ul class="nav-articles">
-                    {% assign items = cat.items %}
-                    {% for item in items %}
-                    <li>
-                        <a href="{{ item.url }}">
-                            <span>{{ item.title }}</span>
-                            <span class="icon ion-ios-arrow-forward"></span>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% endif%}
-            {% endunless %}
+            {% for category in site.categories %}
+                {% capture category_name %}{{ category | first }}{% endcapture %}
+                    
+                {% if category_name == "Primeiros Passos" %}
+                <div>
+                    <ul class="nav-articles">
+                        {% for post in site.categories[category_name] %}
+                        <li>
+                            <a href="{{ post.url }}">
+                                <span>{{ post.title }}</span>
+                                <span class="icon ion-ios-arrow-forward"></span>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif%}
             {% endfor %}
+            {% for category in site.categories %}
+                {% capture category_name %}{{ category | first }}{% endcapture %}
 
-            {% assign mydocs = site.posts | group_by: 'category' %}
-            {% for cat in mydocs %}
-            {% unless cat.name == "" %}
+                    {% if category_name == "Primeiros Passos" %}
+                    <div id="primeiros-passos" class="js-primeiros-passos">
+                        <h3>{{category_name}}</h3>
+                        <ul class="nav-articles">
+                            {% for post in site.categories[category_name] %}
+                            <li>
+                                <a href="{{ post.url }}">
+                                    <span>{{ post.title }}</span>
+                                    <span class="icon ion-ios-arrow-forward"></span>
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif%}
 
-            {% if cat.name == "Primeiros Passos" %}
-            <div id="primeiros-passos" class="js-primeiros-passos">
-                <h3>{{cat.name}}</h3>
-                <ul class="nav-articles">
-                    {% assign items = cat.items %}
-                    {% for item in items %}
-                    <li>
-                        <a href="{{ item.url }}">
-                            <span>{{ item.title }}</span>
-                            <span class="icon ion-ios-arrow-forward"></span>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% endif%}
-
-            {% if cat.name == "Base de Conhecimentos" %}
-            <div id="base-conhecimentos" class="js-base-conhecimentos">
-                <h3>{{cat.name}}</h3>
-                <ul class="nav-articles">
-                    {% assign items = cat.items %}
-                    {% for item in items %}
-                    <li>
-                        <a href="{{ item.url }}">
-                            <span>{{ item.title }}</span>
-                            <span class="icon ion-ios-arrow-forward"></span>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% endif%}
-
-            {% endunless %}
+                    {% if category_name == "Base de Conhecimentos" %}
+                    <div id="base-conhecimentos" class="js-base-conhecimentos">
+                        <h3>{{category_name}}</h3>
+                        <ul class="nav-articles">
+                            {% for post in site.categories[category_name] %}
+                            <li>
+                                <a href="{{ post.url }}">
+                                    <span>{{ post.title }}</span>
+                                    <span class="icon ion-ios-arrow-forward"></span>
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif%}
             {% endfor %}
-
         </div>
     </div>
 </section>
